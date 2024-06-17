@@ -1,0 +1,204 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Para Navbar*/
+.akaya-telivigala-regular { /*para el texto del nav*/
+  font-family: "Akaya Telivigala", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url("./img/bolsa.jpg");
+  font-size: 30px;
+  color: #40aa81;
+  position: fixed;
+  z-index: 1000;
+  top: 0px;
+  width: 100%;
+}
+.textoNav{
+  color: black;
+}
+
+/* INIICO */
+.inicioPrincipal{
+  margin-top: 60px;
+  background-image: url("../public/imagenes/bolsa.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.titan-one-regular {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+
+}
+.tituloInicio{
+  font-size: 100px;
+  width: 50rem;
+  text-align: center;
+  justify-content: center;
+  padding: auto;
+  margin: auto;
+}
+.cajaVacia{
+  height: 100px;
+  background-color: rgba(253, 253, 253, 0.2);;
+}
+
+/*-------SUPERPOSICION IMAGEN*/
+.cardTitle{
+  font-size: 70px;
+  color: #345;
+}
+.cardSub{
+  font-size: 30px;
+  color: #113;
+}
+.textoSuper{
+  padding: auto;
+  margin: 50px;
+  width: auto;
+  background-color: rgba(197, 189, 189, 0.7);
+  backdrop-filter: blur(1px);
+}
+/*  ---------- card group */
+.cardGroup{
+  padding: 10px;
+  margin: 0 10px; /* Margen entre los enlaces */
+}
+.imagen-card-groups{
+  width: 19rem;
+  height: 17rem;
+  padding: 3px;
+}
+/*    alimentos */
+.alimentos{
+  background-image: url("../public/imagenes/bolsa.jpg");
+}
+/*bebidas*/
+.bebidas{
+  background-image: url("../public/imagenes/bolsa.jpg");
+}
+/*electro*/
+.electro{
+  background-image: url("../public/imagenes/bolsa.jpg");
+}
+/*promociones*/
+.promociones{
+  background-image: url("../public/imagenes/bolsa.jpg");
+}
+/*ropa*/
+.ropa{
+  background-image: url("../public/imagenes/bolsa.jpg");
+}
+/* FOOTER */
+.footer {
+  background-color: #333; /* Color de fondo del footer */
+  color: #fff; /* Color del texto */
+  padding: 20px; /* Espaciado interno arriba y abajo */
+  text-align: center; /* Centra el contenido horizontalmente */
+  width: 100%; /* Ancho completo */
+
+}
+
+.footer a {
+  color: #fff; /* Color de los enlaces */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  margin: 0 10px; /* Margen entre los enlaces */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Subraya el texto del enlace al pasar el mouse */
+}
+
+/* form*/
+.formulario {
+  background-color: #333; /* Color de fondo del footer */
+  color: #fff; /* Color del texto */
+  padding: 30px; /* Espaciado interno arriba y abajo */
+  text-align: center; /* Centra el contenido horizontalmente */
+  width: 100%; /* Ancho completo */
+
+}
+.formulario input{
+  width: 800px;
+  margin: auto;
+}
+.formulario label{
+  width: 700px;
+  color: black;
+}
+.formulario p{
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+
+
+/* TARJETAS */
+.img-tarjetas{
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: 5px;
+}
+.my-2{
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(1px);
+  border: solid 3px;
+  padding: 10px;
+  margin: 50px;
+}
+/* SUCURSALES */
+.sucursales{
+  background-image: url("../public/imagenes/bolsa.jpg");
+}
+/*  ACORDEON */
+.acordeon{
+  margin: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  
+  backdrop-filter: blur(1px);
+}
+/*
+carro*/
+
